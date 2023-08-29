@@ -1,20 +1,17 @@
 # health_insurance_cross_sell_prediction
-По табличным данным необходимо предсказать, будут ли клиенты страховой компании заинтересованы в приобретении дополнительного вида страхования. В задаче используется датасет https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction
+The goal of this project is to predict whether customers of an insurance company will be interested in purchasing an additional type of insurance. This ![dataset](https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction) was used for the task.
 
-Ноутбук включает в себя:
+The notebook includes:
+1) Exploratory data analysis (EDA).
 
-1) Предварительный анализ (EDA).  
-  
-2) Обработку данных, в том числе: 
-
-- сэмплинг для устранения дисбаланса классов
-- кодирование категориальных признаков;    
-- обработку выбросов;
-- масштабирование;
-- отбор признаков (feature selection).
-
-3) Выбор наилучшей классической ML модели из следующих вариантов:
-
-- логистическая регрессия;
+2) Data preprocessing:
+   - sampling to address class imbalance;
+   - categorical feature encoding;
+   - handling outliers;
+   - scaling;
+   - feature selection.
+   
+3) Choosing the best classical machine learning model among the following options:
+- logistic Regression;
 - random forest;
-- градиентный бустинг (LightGBM).
+- gradient boosting (LightGBM).
